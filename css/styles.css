@@ -1,0 +1,202 @@
+/* html tags */
+
+body{
+  background-color: #000;
+  text-align: center;
+  color: #00A8CC;
+  font-family: "Montserrat";
+}
+
+h1{
+  font-size: 3.6rem;
+  font-weight: 900;
+}
+
+h2, h3{
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 3%;
+}
+
+hr{
+  border-color: #00A8CC;
+
+}
+
+/* commons */
+
+.btn{
+  margin: 10px;
+}
+
+/* navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-size: 3.2rem;
+  font-weight: 800;
+  font-family: 'Pacifico', cursive;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.5rem;
+}
+
+/* search */
+.my-2{
+  color: #00A8CC;
+  border-color: inherit;
+}
+
+/* Download button */
+.dwn {
+  outline-color: #00A8CC;
+  color: #00A8CC;
+}
+
+/* title_intro */
+
+.bar{
+  padding: 3% 10% 3%;
+}
+
+.title-img{
+  opacity: 0.5;
+  width: 100%;
+}
+
+.intro-p{
+  font-size: 1.2rem;
+}
+
+
+/* press */
+
+#press{
+  background-color: #ECFBFC;
+  padding: 3% 7% 5%;
+  font-family: 'Tangerine', cursive;
+  font-weight: 400;
+
+}
+
+.mn{
+  font-size: 1.5rem;
+}
+
+.press-image{
+  width: 25%;
+  border-radius: 10%;
+  margin: 20px 20px 60px;
+}
+
+.prs{
+  padding: 0 15%;
+}
+
+/* plan */
+
+.plans{
+  background-image:url('bgimgs.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  padding: 3% 10% 5%;
+  background-color: #222832;
+  font-size: 1.4rem;
+}
+
+.plnart{
+  text-align: left;
+}
+
+
+/* prospectus */
+
+.prospectus{
+  background-color: #DEE3E2;
+  padding: 3% 4% 8%;
+  font-size: 1.5rem;
+}
+
+.prop-card{
+  font-size: 2.5rem;
+}
+
+/* signup */
+
+.signup-container{
+  padding: 0 0 7%;
+}
+
+.signup{
+  background-color: #00A8CC;
+  color: #fff;
+  margin: 0 15% 2%;
+  padding: 3% 7% 2%;
+  font-size: 1.6rem;
+}
+
+.inp{
+  margin: 2% 0;
+}
+.signup-img{
+  width: 75%;
+  margin: 3% 0 2%;
+}
+
+/* form */
+
+.entry{
+  font-size: 1.5rem;
+}
+
+/* legal */
+
+.legal{
+
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+
+}
+
+.legal-title{
+  color: #fff;
+}
+
+
+/* lst */
+
+.lstart{
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  text-align: left;
+
+}
+
+.lstawe {
+  margin: 0 0.5% 0.5%;
+}
+
+/* footer */
+
+.footer{
+  padding: 2% 0 3%;
+}
+
+
+/* media querry */
+
+@media (max-width: 995px) {
+
+  .legal{
+    text-align: center;
+
+  }
+
+}
